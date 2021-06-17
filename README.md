@@ -5,7 +5,8 @@ Color palette was inspired by [The Better Discord Website](https://betterdiscord
 
 
 ### INSTALLATION FOR POWERCORD
-Clone the https://github.com/mr-miner1/Better-Badges in your themes folder
+Use the Following Command in your powercord directory to install the theme.
+``git clone https://github.com/mr-miner1/Blue-Sapphire``
 ### INSTALLTION FOR BETTER DISCORD
 Download the [BlueSapphire.theme.css](https://github.com/mr-miner1/Blue-Sapphire/blob/main/BlueSapphire.theme.css) and put it in your themes folder
 ### Support and Suggesions
