@@ -7,9 +7,9 @@ Color palette was inspired by [The Better Discord Website](https://betterdiscord
 ### INSTALLATION FOR POWERCORD
 Clone the https://github.com/mr-miner1/Better-Badges in your themes folder
 ### INSTALLTION FOR BETTER DISCORD
-Download the [BetterBadges(BD).theme.css](https://github.com/mr-miner1/Better-Badges/blob/main/BetterBadges(BD).theme.css) and put it in your themes folder
+Download the [BlueSapphire.theme.css](https://github.com/mr-miner1/Blue-Sapphire/blob/main/BlueSapphire.theme.css) and put it in your themes folder
 ### Support and Suggesions
-For support you can dm me on discord (mr_miner#6592).
+For support you can dm me on discord (mr_miner#6969).
 For suggestions and bug reports you can dm me or put them in the issues tab.
 ### Todo List
 #### Todo before v1.0
