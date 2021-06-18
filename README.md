@@ -13,7 +13,7 @@ Download the [BlueSapphire.theme.css](https://github.com/mr-miner1/Blue-Sapphire
 For support you can dm me on discord (mr_miner#6969).
 For suggestions and bug reports you can dm me or put them in the issues tab.
 ### Theme Preview
-![](https://i.imgur.com/qq7nNYN.gif)
+![](https://i.imgur.com/erTtLUi.gif)
 ### Todo List
 #### Todo before v1.0
 Fixes bugs (since their are probably many)
