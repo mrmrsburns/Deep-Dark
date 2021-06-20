@@ -12,14 +12,11 @@ Download the [DeepDark.theme.css](https://github.com/mr-miner1/Blue-Sapphire/blo
 ### Support and Suggesions
 For support you can dm me on discord (mr_miner#6969).
 For suggestions and bug reports you can dm me or put them in the issues tab.
+### Also available in GooseMod
 ### Theme Preview
 ![](https://i.imgur.com/erTtLUi.gif)
 ### Todo List
-#### Todo before v1.0
-Fixes bugs (since their are probably many)
-
-Take feedback from the few ppl who try it out
-#### Todo after v1.0
 Make the theme more than just a discord recolor ie changing discord defualt layout and design *original recolor would still be available*
 
 *maybe make the them in a few different colors*
+### Really like the theme? Best way to support it is to star the github repo!!
