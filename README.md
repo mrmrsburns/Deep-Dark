@@ -15,8 +15,5 @@ For suggestions and bug reports you can dm me or put them in the issues tab.
 ### Also available in GooseMod
 ### Theme Preview
 ![](https://i.imgur.com/erTtLUi.gif)
-### Todo List
-Make the theme more than just a discord recolor ie changing discord defualt layout and design *original recolor would still be available*
 
-*maybe make the them in a few different colors*
 ### Really like the theme? Best way to support it is to star the github repo!!

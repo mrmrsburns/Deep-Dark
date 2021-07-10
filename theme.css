@@ -1,4 +1,5 @@
-@import url('https://mr-miner1.github.io/Better-Badges/theme.css');
+
+@import url('https://mr-miner1.github.io/Better-Badges/src/coloredbadges.css');
 .theme-dark,
 .theme-light,
 :root {
@@ -52,6 +53,7 @@
   --scrollbar-auto-track: #0e0f1483;
   --scrollbar-auto-thumb: #1e202983;
   --scrollbar-thin-thumb: #1e202983;
+  --badge-size: 22px;
 }
 /* modals */
 .uploadModal-2ifh8j, .content-1YdlXf, .root-1gCeng, .message-2qRu38, .content-1LAB8Z .directionColumn-35P_nr{
@@ -83,17 +85,15 @@
   color: var(--red) !important;
   opacity: 80%;
 }
-.mainContent-u_9PKf, .unread-2lAfLh + .content-1x5b-n > .mainContent-u_9PKf > .iconContainer-1BBaeJ > .icon-1DeIlz, .unread-2lAfLh{
+.mainContent-u_9PKf, .unread-2lAfLh + .content-1x5b-n .icon-1DeIlz, .unread-2lAfLh{
   --interactive-active: #80abec;
   color: #80abec !important;
 }
 .wrapper-2jXpOf:hover .content-1x5b-n{
   background-image: linear-gradient(to right, var(--background-secondary), var(--background-accent)) ;
 }
-.modeSelected-346R90{
-  filter:drop-shadow(0px 0px 3px var(--blurple));
-  margin-right: 5px;
-  color: var(--blurple);
+.modeSelected-346R90 > div{
+  background-image: linear-gradient(to right, var(--background-secondary), var(--background-accent)) ;
 }
 .modeSelected-346R90 .name-23GUGEm, .modeSelected-346R90 .icon-1DeIlz{
   color: var(--blurple) !important;
@@ -251,8 +251,10 @@
 .botTagRegular-2HEhHi{
   background-image: var(--blurple-gradient);
 }
-/* .avatar-1BDn8e, .replyAvatar-1K9Wmr, .avatar-3uk_u9{
+/* avatar */
+.avatar-1BDn8e, .replyAvatar-1K9Wmr, .avatar-3uk_u9{
   border-radius: 20%;
+  transition-duration: 0.2s;
 }
 .avatar-1BDn8e:hover, .replyAvatar-1K9Wmr:hover{
   transform: scale(1.1);
@@ -272,7 +274,7 @@
   -webkit-mask: none;
   mask: none;
   border-radius: 20%;
-} */
+}
 /* pv roles */
 .role-2irmRk {
   transition-duration: 0.15s;
@@ -363,25 +365,21 @@
 .sampleLink-2NLvZg, .title-XLSR78{
   color: var(--almost-white) !important;
 }
-.bar-30k2ka{
-  background-image: linear-gradient(to bottom, var(--red), var(--red-hover));
-}
-.unread-1xRYoj{
-  background-image: linear-gradient(to bottom, var(--blurple), var(--blurple-hover));
-}
 .numberBadge-2s8kKX{
   background-image: var(--redgradient);
   animation-name: pinganimation;
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+  animation-timing-function:ease;
 }
 @keyframes pinganimation {
   0%{
       filter: drop-shadow(0px 0px 0px var(--red));
   }
   50%{
-      filter: drop-shadow(0px 0px 8px var(--red));
+      filter: drop-shadow(0px 0px 5px var(--red));
+      transform: scale(1.2);
   }
   100%{  filter: drop-shadow(0px 0px 0px var(--red));}
 }
@@ -394,18 +392,4 @@
 }
 .premiumGuildIconGem-DAxGL7 > g{
   fill: violet;
-}
-/* rainbow name go brrrr */
-div[data-user-id^="678541597654253600"] > .contents-2mQqc9 > .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy{
-  background-image: 
-  linear-gradient(to right, #FF6663,#FEB144,#FDFD97,#9EE09E,#9EC1CF,#A05BFD, #CC99C9); 
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;  
-  animation: move 2000s linear infinite;
-}
-
-@keyframes move {
-	to {
-		background-position: 100000px;
-	}
 }
