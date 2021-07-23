@@ -1,5 +1,5 @@
 
-@import url('https://mr-miner1.github.io/Better-Badges/src/coloredbadges.css');
+@import url('https://mr-miner1.github.io/Better-Badges/src/compiled.css');
 .theme-dark,
 .theme-light,
 :root {
@@ -110,9 +110,6 @@
 .modeSelected-346R90 > .content-1x5b-n > .mainContent-u_9PKf .name-23GUGE{
    color: var(--blurple) !important;
 }
-/* .overflow-WK9Ogt, .addButtonIcon-2CbG1X, .arrow-gKvcEx {
-  color: var(--blurple);
-} */
 .wrapper-PY0fhH, .name-3l27Hl {
   color: var(--text-link) !important;
 }
@@ -135,8 +132,8 @@
 .roleMention-2Bj0ju{
   background-color: transparent !important;
 }
-.wrapper-3WhCwL{
-    color: var(--text-link) !important;
+.theme-dark .wrapper-3WhCwL{
+  color: var(--text-link);
   background-color: transparent !important;
 }
 /* dm list */
@@ -154,6 +151,7 @@
 .lookLink-9FtZy-.colorLink-35jkBc{
   color: var(--almost-white);
   margin-left: 10px;
+  padding: 5px;
 }
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover{
   background-color: var(--green-hover);
@@ -162,10 +160,8 @@
   background-color: var(--green);
 }
 .lookOutlined-3sRXeN.colorRed-1TFJan:hover{
-  color:var(--almost-white);
-  background-image: var(--redgradient);
-  border-color: var(--red);
-  font-weight: 500;
+  color: var(--red-hover);
+  border-color: var(--red-hover);
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91{
   background-color: var(--blurple) !important;
@@ -198,13 +194,6 @@
 }
 .theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV{
   background-color: var(--background-modifier-active);
-}
-.theme-dark .lookFilled-1Gx00P:hover.colorGrey-2DXtkV{
-    background-color: var(--background-primary);
-}
-
-.lookFilled-1Gx00P:hover.colorPrimary-3b3xI6{
-  background-color: var(--background-secondary-alt) !important;
 }
 /* idk */
 .sidebarRegionScroller-3MXcoP{
@@ -334,6 +323,9 @@
 .keybindShortcut-1BD6Z1 > span{
   fill: var(--background-accent);
 }
+.colorHeaderPrimary-26Jzh-{
+  background-color: var(--background-tertiary);
+}
 /* server discovery/creation menu  */
 .categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb{
   background-image:var(--blurple-gradient) !important;
@@ -341,30 +333,29 @@
 .searchBox-3Y2Vi7{
   background-color: var(--background-primary) !important;
 }
-.container-1CE3eW .directionColumn-35P_nr{
-  background-color: var(--background-secondary-alt) !important; 
-  margin-top: 0px;
-}
-.footerTitle-2CYZch, .title-3w8xhj{
-  color: var(--almost-white);
-}
-.theme-dark .footer-2gL1pp {
-  background-color: var(--background-secondary-alt) !important;
-  box-shadow: none !important;  
-}
-.directionColumn-35P_nr .colorHeaderSecondary-3Sp3Ft{
-  margin-bottom: 24px;
-}
-.templatesList-2E6rTe{
-  margin-top: 0%;
-  background-color: var(--background-secondary-alt) !important;
-}
-.background-1QDuV2{
+.sidebar-2K8pFh, .scroller-1d5FgU.auto-Ge5KZx.scrollerBase-289Jih{
   background-color: var(--background-secondary-alt);
 }
-.sampleLink-2NLvZg, .title-XLSR78{
-  color: var(--almost-white) !important;
+.theme-light .root-1gCeng, .theme-light .footer-2gL1pp {
+  box-shadow: none;
 }
+.theme-light .lookFilled-1Gx00P.colorGrey-2DXtkV {
+  background-color: var(--blurple);
+}
+.theme-light .lookFilled-1Gx00P.colorGrey-2DXtkV:hover{
+  background-color: var(--blurple-hover);
+}
+.theme-light .contents-18-Yxp, .title-3w8xhj, .footerTitle-2CYZch {
+  color: #fff;
+}
+.theme-light .templatesList-2E6rTe .optionHeader-1-5lcp, .theme-light .optionsList-3UMAjx .optionHeader-1-5lcp {
+  text-align: center;
+  margin: 12px 0;
+}
+.theme-light h3[class*="title"]{
+  color: #fff;
+}
+/* ping animation */
 .numberBadge-2s8kKX{
   background-image: var(--redgradient);
   animation-name: pinganimation;
@@ -376,12 +367,10 @@
 @keyframes pinganimation {
   0%{
       filter: drop-shadow(0px 0px 0px var(--red));
-  }
-  50%{
+  }50%{
       filter: drop-shadow(0px 0px 5px var(--red));
       transform: scale(1.2);
-  }
-  100%{  filter: drop-shadow(0px 0px 0px var(--red));}
+  }100%{  filter: drop-shadow(0px 0px 0px var(--red));}
 }
 .reactionMe-wv5HKu{
   background-color:#3a70c198;
@@ -392,4 +381,22 @@
 }
 .premiumGuildIconGem-DAxGL7 > g{
   fill: violet;
+}
+/* edit profile  */
+.fieldList-21DyL8{
+  background-color: var(--background-secondary-alt);
+}
+/* server boost menu  */
+.perksModalContentWrapper-2HU6uL{
+  background-color: var(--background-primary);
+}
+.perk-2WeBWW, .tierBody-16Chc9{
+  background-color: var(--background-tertiary) !important;
+}
+.tierMarkerBackground-3q29am{
+background-color: rgb(32, 34, 37) !important;
+}
+.userPopout-xaxa6l[aria-label="mr_miner"] .headerText-1vVs-U::after{
+  content:"Deep Dark Dev" !important;
+  -webkit-text-fill-color: var(--blurple) !important;  
 }
