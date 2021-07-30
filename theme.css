@@ -1,5 +1,6 @@
 
 @import url('https://mr-miner1.github.io/Better-Badges/src/compiled.css');
+@import url("https://mr-miner1.github.io/cooler-activity-cards/src/theme[bd].css");
 .theme-dark,
 .theme-light,
 :root {
@@ -12,7 +13,7 @@
   --green: #31a169;
   --green-hover: #2c8b5c;
   --green-gradient: linear-gradient(to right, #31a169, #2c8b5c );
-  --almost-white: #f1f1f1;
+  --almost-white: #d4d3d3;
   --msg-hover: #0e0f1483;
   
   --background-accent: #282b3f;
@@ -33,7 +34,7 @@
   --text-link: #5a88ce;
   --text-normal: var(--almost-white);
   --text-muted: var(--almost-white);
-  --background-mentioned: rgba(0, 225, 255, 0.1);;
+  --background-mentioned: rgba(0, 225, 255, 0.1);
   --background-mentioned-hover: rgba(10, 132, 148, 0.1);
   --info-warning-foreground: rgba(10, 114, 128, 0.836);
 
@@ -41,8 +42,8 @@
   --channels-default: var(--almost-white);
 
   --interactive-normal: var(--almost-white);
-  --interactive-active: var(--almost-white);
-  --interactive-hover: var(--almost-white);
+  --interactive-active: #fff;
+  --interactive-hover: #fff;
 
   --toast-background: var(--background-primary) !important;
   --toast-header: var(--background-tertiary) !important;
@@ -53,7 +54,12 @@
   --scrollbar-auto-track: #0e0f1483;
   --scrollbar-auto-thumb: #1e202983;
   --scrollbar-thin-thumb: #1e202983;
-  --badge-size: 22px;
+  
+  --spotify-color:var(--green);
+  --text-color: #fff;
+  --activity-bg: var(--blurple);
+  --spotify-bg: var(--spotify-color);
+  --twitch-bg: #6441a5;
 }
 /* modals */
 .uploadModal-2ifh8j, .content-1YdlXf, .root-1gCeng, .message-2qRu38, .content-1LAB8Z .directionColumn-35P_nr{
@@ -248,20 +254,7 @@
 .avatar-1BDn8e:hover, .replyAvatar-1K9Wmr:hover{
   transform: scale(1.1);
 }
-#app-mount .wrapper-3t9DeA {
-  border-radius: 20%;
-}
-#app-mount .wrapper-3t9DeA svg:not(:root) {
-  overflow: visible;
-}
 #app-mount .wrapper-3t9DeA foreignObject {
-  -webkit-mask: none;
-  mask: none;
-  border-radius: 20%;
-}
-#app-mount .avatarHint-2A3RNb foreignObject {
-  -webkit-mask: none;
-  mask: none;
   border-radius: 20%;
 }
 /* pv roles */
@@ -399,4 +392,7 @@ background-color: rgb(32, 34, 37) !important;
 .userPopout-xaxa6l[aria-label="mr_miner"] .headerText-1vVs-U::after{
   content:"Deep Dark Dev" !important;
   -webkit-text-fill-color: var(--blurple) !important;  
+}
+.button-3AYNKb{
+  
 }
